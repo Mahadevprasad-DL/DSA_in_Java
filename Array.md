@@ -12,7 +12,7 @@ An **Array** is a data structure that stores a collection of elements of the sam
 ---
 
 ## Example:  
-int arr[5] = {1, 2, 3, 4, 5};
+int [] arr = {1, 2, 3, 4, 5};
 
 ## Key Applications:  
 1. **Storing Information in a Linear Fashion**  
@@ -44,8 +44,10 @@ int arr[5] = {1, 2, 3, 4, 5};
 ---
 
 ## 1D Array Declaration and Initialization  
-datatype var_name[3];
-arr[3] = {1, 2, 3};
+int[] arr = new int[3];   // Declaration  
+arr[0] = 1;  
+arr[1] = 2;  
+arr[2] = 3;    // Initialization  
 
 ---
 
@@ -58,8 +60,12 @@ arr[3] = {1, 2, 3};
 ---
 
 ## 2D Array Declaration and Initialization  
-To declare a 2D array, the syntax is as follows:
-```c
-datatype variable_name[rowsize][col_size];
+int[][] arr = new int[2][3];    // Declaration  
+arr[0][0] = 1;  
+arr[0][1] = 2;  
+arr[0][2] = 3;  
+arr[1][0] = 4;  
+arr[1][1] = 5;  
+arr[1][2] = 6;    // Initialization  
 
 
